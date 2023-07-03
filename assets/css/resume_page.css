@@ -1,4 +1,13 @@
 /* resume page */
+
+body {
+  overflow-x: hidden;
+  width: 80%;
+  font-size: 1.6rem;
+  margin: auto;
+  font-family: var(--font-poppins);
+}
+
 #about-sc {
   padding: 64px 0;
 }

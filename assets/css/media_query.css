@@ -1,19 +1,5 @@
 /* media queries */
 
-@media screen and (min-width: 768px) {
-  .cols-3 {
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-  }
-  .cols-2 {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-  }
-  .section-second .section-items {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 @media screen and (min-width: 992px) {
   .cv-form-row {
     padding: 3rem 3rem 0rem 3rem;

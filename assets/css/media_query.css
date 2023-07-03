@@ -1,0 +1,76 @@
+/* media queries */
+
+@media screen and (min-width: 768px) {
+  .cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+  }
+  .cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+  .section-second .section-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .cv-form-row {
+    padding: 3rem 3rem 0rem 3rem;
+  }
+  .cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .section-first-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+  }
+  .section-first-r {
+    text-align: left;
+  }
+  .section-second .section-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .section-second .section-item {
+    text-align: left;
+  }
+  .section-second .section-item-icon img {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    font-size: 1.6rem;
+    margin: auto;
+  }
+}
+
+.print-btn-sc {
+  margin: 2rem 0 6rem 0;
+}
+
+/* print section */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .non_print_area {
+    display: none;
+  }
+
+  .print_area,
+  .print_area * {
+    visibility: visible;
+  }
+
+  .print_area {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+  }
+}

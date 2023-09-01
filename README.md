@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jakub</h1>
-<h3 align="center">Resume Builder Application in JavaScript: For this project, I created an interactive Resume Builder using plain JavaScript. The application enabled users to input their personal information, work experience, education, skills, and other relevant details, and it would dynamically generate a professionally formatted resume.</h3>
+<h3 align="center">Resume Builder Application in JavaScript: For this project, I created an interactive Resume Builder using plain JavaScript. The application enabled users to input their personal information, work experience, education, skills, and other relevant details, and it would dynamically generate a professionally formatted resume</h3>
 
 👨‍💻 Project available here: [https://myresumebuilderapp.netlify.app](https://myresumebuilderapp.netlify.app)
 

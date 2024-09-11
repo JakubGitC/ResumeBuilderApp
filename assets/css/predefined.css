@@ -4,7 +4,7 @@
   --clr-blue-dark: #1a1c6a;
   --clr-white: #fff;
   --clr-bright: #eff2f9;
-  --clr-dark: #1e2532;
+  --clr-dark: #000000;
   --clr-black: #000;
   --clr-grey: #656e83;
   --clr-green: #084c41;
@@ -202,15 +202,15 @@
 }
 
 .btn-primary {
-  background-color: var(--clr-blue);
+  background-color: var(--clr-green);
   color: var(--clr-white);
-  border: 1px solid var(--clr-blue);
+  border: 1px solid var(--clr-green);
   transition: var(--transition);
 }
 
 .btn-primary:hover {
   background-color: transparent;
-  color: var(--clr-dark);
+  color: var(--clr-black);
   border-color: var(--clr-grey);
 }
 

@@ -23,16 +23,19 @@ body {
   width: 100vw;
   overflow: hidden;
   background-color: var(--clr-dark);
+  background-color: var(--clr-black);
 }
 #examplebtn {
+  position: fixed;
   transition: all 2s ease;
   color: white;
+  z-index: 10;
   cursor: pointer;
   width: 100%;
+  background-color: var(--clr-black);
 }
 #examplebtn:hover {
-  color: black;
-  background-color: white;
+  color: rgb(179, 179, 179);
 }
 
 .cv-form-row-title {

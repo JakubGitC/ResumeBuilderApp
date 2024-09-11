@@ -361,17 +361,17 @@ const exampleDate = () => {
   const inputElement = document.querySelector('input[name="image"]');
   firstnameElem.value = "Jakub";
   middlenameElem.value = "Oskar ";
-  lastnameElem.value = "Kowalski";
+  lastnameElem.value = "Ciołek";
   inputElement.click();
   designationElem.value = "Profesor";
   addressElem.value = "Hopefield Street 23";
-  emailElem.value = "jakubkowalski@gmail.com";
+  emailElem.value = "jakubkciolek@gmail.com";
   phonenoElem.value = "+48 532500231";
 
   achievementsTitleElem[0].value = "IT Contest";
   achievementsDescriptionElem[0].value = "Winning the IT competition";
 
-  expTitleElem[0].value = "Junior Front-End Developer";
+  expTitleElem[0].value = " Front-End Developer";
   expOrganizationElem[0].value = "Facebook";
   expLocationElem[0].value = "London";
   expStartDateElem[0].value = "2021-10-01";
@@ -379,9 +379,9 @@ const exampleDate = () => {
   expDescriptionElem[0].value =
     "I was responsible for developing new user-facing features,  building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages.";
 
-  eduSchoolElem[0].value = "London Imperial Collage";
+  eduSchoolElem[0].value = "De Montfort University";
   eduDegreeElem[0].value = "Bachelor of Science";
-  eduCityElem[0].value = "London";
+  eduCityElem[0].value = "Leicester";
   eduStartDateElem[0].value = "Winning the IT competition";
   eduGraduationDateElem[0].value = "Winning the IT competition";
   eduDescriptionElem[0].value = "I have completed course in Computer Science";
